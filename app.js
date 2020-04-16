@@ -17,8 +17,8 @@ app.get("/download", function(req, res){
 	});
 });
 
-var port =  process.env.port || 4000;
+var port =  process.env.PORT || 4000;
 
-app.listen(port, function(){
+app.listen(port, function(req, res){
 	console.log("Server is ON at " + port);
 });
