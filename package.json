@@ -1,0 +1,19 @@
+{
+  "name": "reqparam1",
+  "version": "1.0.0",
+  "description": "download file from server",
+  "main": "app.js",
+  "scripts": {
+    "start": "app.js"
+  },
+  "keywords": [
+    "req",
+    "express"
+  ],
+  "author": "Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "body-parser": "latest"
+  }
+}
